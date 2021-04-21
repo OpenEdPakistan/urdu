@@ -43,7 +43,7 @@ with open(inputFile,"r") as f:
 print('Done.')
 ```
 
-The following command is executed in the notebook and creates a zip file for the serialized audio files. (NOTE: Do not forget the exclamation mark at the beginning of the file)
+The following command is executed in the notebook and creates a zip file for the serialized audio files. (NOTE: Do not forget the exclamation mark at the beginning of the command)
 ```
 ! zip results.zip *.mp3
 ```
