@@ -48,7 +48,7 @@ The following command is executed in the notebook and creates a zip file for the
 ! zip results.zip *.mp3
 ```
 The code file can be found here: https://github.com/OpenEdPakistan/urdu/blob/main/tts/gTTS.ipynb
-<br />
+<br /><br/>
 You can convert the mp3 files to wav on your Microsoft Windows 10 machine by downloading the ffmpeg.exe file from [here](https://github.com/BtbN/FFmpeg-Builds/releases) (located in a zip file), adding it to your path, and running the following Python code:
 ```
 import os
@@ -67,3 +67,4 @@ for fileName in os.listdir(path):
         print("Converting " + fileNameNoExt + srcPath + " to " + fileNameNoExt + destPath)
         subprocess.call(['ffmpeg', '-i', srcFile, destFile])
 ```
+The generated wav files are in the Drive:\Users\[UserName] folder.
