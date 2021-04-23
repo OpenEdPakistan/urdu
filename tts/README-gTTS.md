@@ -67,4 +67,4 @@ for fileName in os.listdir(path):
         print("Converting " + fileNameNoExt + srcPath + " to " + fileNameNoExt + destPath)
         subprocess.call(['ffmpeg', '-i', srcFile, destFile])
 ```
-The generated wav files are in the Drive:\Users\[UserName] folder.
+The generated wav files are in the _Drive:\Users\UserName_ folder.
